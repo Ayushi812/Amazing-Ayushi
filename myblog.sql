@@ -34,7 +34,7 @@ CREATE TABLE `contacts` (
   `msg` text NOT NULL,
   `date` int(11) DEFAULT current_timestamp(),
   `email` varchar(50) NOT NULL
-) 
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `contacts`
