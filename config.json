@@ -1,0 +1,17 @@
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_uri":"mysql://root:@localhost/myblog",
+        "prod_uri":"mysql://root:@localhost/myblog",
+        "fb_url":"https://facebook.com/myblog",
+        "tw_url":"https://twitter.com/myblog",
+        "gh_url":"https://github.com/myblog",
+        "blog_name":"Amazing Ayushi",
+        "tag_line":"Desire for success should be higher than your fear of failure", 
+        "about_text":"Hi I am Ayushi.I am Computer Science Engineer.I am very passionate about my work and very determined towards my dream,and I believe along with the dream one should also pursue their hobbies in life,because hobbies are the one which helps us to live a joyful life.So I think every should encalaculate their interest in various things apart from work...And my interest lies in travelling to the new adventurous places,exploring myself and I like to express myself by writing down my amazing experiences through this blog.",
+        "no_of_posts":3,
+        "admin_user":"Ayushi",
+        "admin_password":"Amazing"
+    }
+}

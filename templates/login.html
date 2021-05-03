@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>
+    Admin Panel
+</title> 
+<link rel="stylesheet" href="{{ url_for('static',filename='css/studentcorner.css')}}">         
+</head>
+ <body>
+    <form action='/dashboard' method="POST">
+        <div class="main">
+            <div class="left"></div>
+            <div class="right">
+                <h1 class="info">Admin Login</h1>
+                <div class="emailpass">
+    
+                 <input type="text" id="em" name="uname" class="emailin" placeholder="Username" required ><br><br><br>
+    
+                  <input type="password" id="pass" class="passin" name="pass" placeholder="password" required><br><br>
+    
+                 <button style="background-color: rgb(145, 211, 236);border-radius: 8px;font-size: 40px;" type="submit">Sign in</button><br><br><hr>
+
+                 
+            </div>
+            
+        </div>
+    </div>
+    </form>   
+</body>  
+</html> 

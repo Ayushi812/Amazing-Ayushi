@@ -1,0 +1,5 @@
+{
+     "python.pythonPath": "venv\\Scripts\\python.exe",
+
+    "python.lintings.pylintArgs":["--load-plugins","pylint_flask_sqlalchemy","pylint_flask"]
+}
