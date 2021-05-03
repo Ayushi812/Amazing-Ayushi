@@ -31,12 +31,7 @@ class Contacts(db.Model):
     msg = db.Column('msg',db.String(120), nullable=False)
     date = db.Column('date',db.String(12), nullable=True)
     email = db.Column('email',db.String(20), nullable=False)
-def __init__(self,name,phone,msg,date,email):
-    self.name=name
-    self.phone=phone
-    self.msg=msg
-    self.date=date
-    self.email=email
+
 
 class Posts(db.Model):
     sno = db.Column('sno',db.Integer, primary_key=True)
