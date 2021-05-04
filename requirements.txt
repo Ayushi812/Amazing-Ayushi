@@ -14,7 +14,6 @@ lazy-object-proxy==1.6.0
 MarkupSafe==1.1.1
 mccabe==0.6.1
 mysql-connector==2.2.9
-mysqlclient
 pylint==2.7.4
 pylint-flask==0.6
 pylint-flask-sqlalchemy==0.2.0
