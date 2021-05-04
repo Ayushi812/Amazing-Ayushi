@@ -14,7 +14,7 @@ lazy-object-proxy==1.6.0
 MarkupSafe==1.1.1
 mccabe==0.6.1
 mysql-connector==2.2.9
-mysqlclient @ file:mysqlclient-1.4.6-cp38-cp38-win32.whl
+mysqlclient
 pylint==2.7.4
 pylint-flask==0.6
 pylint-flask-sqlalchemy==0.2.0
